@@ -13,10 +13,11 @@ body {
 .hero-header {
   height: 900px;
   background-image: url("../images/header_image.jpg");
-  background-position: 50% 50%;
+  background-position: center;
   box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.5);
   background-size: 99.9%;
   background-attachment: fixed;
+
   /* background-repeat: no-repeat;
   background-attachment: fixed;
   transform: translatez(0);
@@ -207,10 +208,16 @@ article {
 
 .item {
   width: 400px;
+  border-radius: 10px;
   margin-bottom: 50px;
   float: left;
   -webkit-box-shadow: inset -1px 3px 8px 5px white, 2px 5px 16px 0px #0b325e, inset 5px -14px 15px -17px rgba(255, 255, 255, 0);
   box-shadow: inset -1px 3px 8px 5px white, 2px 5px 16px 0px #0b325e, inset 5px -14px 15px -17px rgba(255, 255, 255, 0);
+}
+
+.item:hover {
+  -webkit-box-shadow: 25px 18px 6px 2px rgba(0, 40, 85, 0.55);
+  box-shadow: 25px 18px 6px 2px rgba(0, 40, 85, 0.55);
 }
 
 .item p {
@@ -301,6 +308,15 @@ footer p {
     font-size: 30px;
   }
 
+  .hero-header {
+    background-image: url("../images/header_image.jpg");
+    background-position: center;
+    box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: space;
+  }
+
   section,
   aside,
   nav a,
@@ -341,10 +357,6 @@ footer p {
     font-size: 30px;
   }
 
-  #navbar {
-    position: relative;
-  }
-
   .hero-header {
     height: 600px;
     width: 100%;
@@ -357,6 +369,10 @@ footer p {
 
   .projects-button {
     font-size: 20px;
+  }
+
+  #navbar {
+    position: inherit;
   }
 
   /*About Me*/
