@@ -10,5 +10,5 @@
 
 ### How to use 
 
-Visit [eunjoona.com](https://groupschedulerapp.azurewebsites.net/)
+Visit [eunjoona.com](https://eunjoona.com/)
 
